@@ -1,0 +1,22 @@
+# Local database credentials
+config.json
+.env
+.env.*
+!.env.example
+
+# Interpreter-specific dependencies and caches
+vendor/
+vendor_py*/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Development backups and exports
+*.bak
+*.log
+*.zip
+*.sql
+.DS_Store
+Thumbs.db
